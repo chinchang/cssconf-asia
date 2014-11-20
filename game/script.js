@@ -301,7 +301,6 @@ var mainState = {
 
         socket.on('welcome', function (data) {
             id = data.id;
-            console.log(data);
             socket.emit('set-data', {
 	            name: 'Slides'
 	        });
