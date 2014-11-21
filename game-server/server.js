@@ -109,11 +109,11 @@ app.post('/code', function (req, res) {
 io.sockets.on('connection', function (socket) {
     socket.emit('welcome', {msg: 'Hi, there! Welcome.', id: socket.id});
 
-    // If this is a connection from an admin
     var ip = socket.handshake.address,
         cookie = socket.handshake.headers.cookie;
 
-    if (cookie && cookie.indexOf(process.env.GAME_ADMIN_COOKIE || 'adminz') !== -1) {
+    // If this is a connection from an admini
+    if (cookie && cookie.indexOf(process.env.GAME_ADMIN_COOKIE || 'admin') !== -1) {
         console.log('Admin joined.')
 
         broadcastStats = function () {
