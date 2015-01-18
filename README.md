@@ -3,7 +3,7 @@ CSSConf.Asia 2014 talk
 
 This contains my slides for CSSConf.Asia 2014 and the MMOCTG (massively multiplayer online CSS throwing game) game code I made for the talk.
 
-[View PDF Slides](http://www.slideshare.net/chang457/10-commandments-for-efficient-css-architecture-cssconfasia-14)
+[View PDF Slides](https://speakerdeck.com/chinchang/10-commandments-for-efficient-css-architecture-cssconf-dot-asia-14)
 
 ### Running the slides
 
